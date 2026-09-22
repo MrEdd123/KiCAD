@@ -1,0 +1,59 @@
+# ---- KiCad .gitignore ----
+
+# Backup-Dateien
+*.bak
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl-bak
+*~
+*.000
+*.rej
+*.orig
+
+# Autosave-Dateien
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Lock-Dateien
+*.lck
+~*.kicad_pcb
+~*.kicad_sch
+
+# Cache-Dateien und -Ordner
+fp-info-cache
+3d-cache/
+sym-lib-table.bak
+fp-lib-table.bak
+
+# Plot-/Fertigungs-Ausgaben (bei Bedarf entfernen, wenn du Gerber-Dateien mitversionieren willst)
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+*.ps
+*.dxf
+*.svg
+gerbers/
+plot/
+
+# Netzliste-Backups
+*.net.bak
+
+# Projekt-Lock-Datei von KiCad 6+
+*.kicad_prl
+
+# ERC/DRC-Berichte (optional, falls du sie nicht versionieren willst)
+*-erc.rpt
+*-drc.rpt
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-/IDE-Dateien
+.vscode/
+.idea/
