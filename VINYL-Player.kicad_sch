@@ -4448,7 +4448,7 @@
 	)
 	(text "LED-Ring\n+5V\nGND\nSignal"
 		(exclude_from_sim no)
-		(at 266.7 80.645 0)
+		(at 266.192 81.788 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,7 +4479,7 @@
 	)
 	(text "Hall-IC\nEndabschaltung"
 		(exclude_from_sim no)
-		(at 272.415 96.52 0)
+		(at 272.542 98.044 0)
 		(effects
 			(font
 				(size 1.27 1.27)
